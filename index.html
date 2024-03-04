@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>CURRENCY CONVERTER</h1>
+        </div>
+       
+        <div class="line1">
+            <input type="text" class="ipval" placeholder="Please Enter Amaunt">
+        </div>
+
+        <div class="line2">
+            <select class="from">
+                <option value="USD" selected>United States of America(USD)</option>
+                
+            </select>
+            <img class="fimg" src="https://flagsapi.com/US/shiny/64.png">
+            <i id="sign" class="fa-solid fa-right-left"></i>
+            <select class="to">
+               
+                <option value="INR" selected>India(INR)</option>
+            </select>
+            <img class="timg" src="https://flagsapi.com/IN/shiny/64.png">
+        </div>
+
+        <div class="line3">
+            <p class="para">1 USD=82.9014 INR</p>
+        </div>
+        <div class="line4">
+            <button class="btn">Convert</button>
+        </div>
+    </div>
+    <script src="countrylist.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
